@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&family=Mitr:wght@300&family=Open+Sans:ital,wght@1,500&family=Patrick+Hand&display=swap');
+
+.title{
+    margin: 17px;
+}
+.title span{
+    font-size: 15px;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #ffc446;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.title h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0e1f24;
+    text-transform: uppercase !important;
+    position: relative;
+}
+
+h2::after{
+    right: 0;
+    margin: 0 auto;
+}
+.title h2::after{
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    height: 2px;
+    width: 70px;
+    background: #e1e1e1;
+    content: "";
+}
+
+.services{
+    margin:38px;
+}
+.services-item-icon{
+    height: 85px;
+    width: 85px;
+    border: 1px solid #ffc446;
+    line-height: 85px;
+    text-align: center;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    float: left;
+    margin: -18px;
+    transition: background-color 2s ease-out;
+    position: relative;
+}
+.services-item-icon:hover{
+    background-color: #ffc446;
+    cursor: pointer;
+}
+.services-item:hover .services-item-icon i{
+    color: white;
+}
+
+.services-item-icon i{
+    color: #ffc446;
+    display: inline-block;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 2rem;
+    transition: color 2s linear;
+    text-align: center;
+}
+.se
+.services-item-text{
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 27px;
+
+}
+.services-item-text h4{
+    color: #0e1f24;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Patrick Hand', cursive;
+
+
+}
+
+@media screen and (max-width: 300px) {
+    body {
+      background-color: blue;
+    }
+  }
